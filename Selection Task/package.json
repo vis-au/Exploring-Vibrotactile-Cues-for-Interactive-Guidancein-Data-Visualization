@@ -1,0 +1,22 @@
+{
+  "name": "touchvis",
+  "version": "1.0.0",
+  "description": "haptic feedback for vega-lite visualizations",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vega": "^5.4.0",
+    "vega-embed": "^4.2.1",
+    "vega-lite": "^4.0.0-beta.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
