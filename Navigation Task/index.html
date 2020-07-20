@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TouchVis Test</title>
+
+  <style>
+    #start {
+
+      position:absolute;
+      left: 525px;
+      top: 250px;
+      width: 150px;
+      height: 100px;
+      border: 3px solid grey;
+      background-color:grey;
+      padding: 10px;
+    }
+
+
+    ::-webkit-scrollbar {
+    display: none;
+}
+
+
+#visContainer{
+  margin: 0px 0px 0px 0px;
+  border-style: solid;
+  border-width: 2px;
+  height: 600px;
+  width: 1200px;
+}
+
+
+  </style>
+</head>
+<body>
+
+
+  <div id="visContainer">
+    <button id="start">Start</button>
+
+  </div>
+
+  <div id="notification">
+
+
+      <p id="mode"></p>
+      <p id="number"></p>
+      <p id="total"></p>
+  </div>
+
+  <div> <button id="resetButton">Reset</button></div>
+    
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://d3js.org/d3-random.v2.min.js"></script>
+  <script src="hapticVis.js"></script>
+
+  
+</body>
+</html>
